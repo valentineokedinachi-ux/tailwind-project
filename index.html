@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's First Tailwind CSS Project</title>
+    <link rel="stylesheet" href="./css/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="flex items-center justify-between px-8 py-4 bg-blueshade text-white border-b border-b-slate-700 shadow-lg sticky top-0 z-50">
+
+  <div class="flex items-center gap-2">
+    
+    <div class="bg-blue-700 p-2 rounded-md">
+      <i class="fa-solid fa-bolt"></i>
+    </div>
+
+    <p class="text-xl font-bold">Nexus</p>
+
+  </div>
+
+
+  <ul class="hidden md:flex gap-6 text-gray-300">
+    <li>Home</li>
+    <li>Services</li>
+    <li>About</li>
+    <li>Contact</li>
+  </ul>
+
+  <button class="bg-blue-500 px-4 py-2 rounded-lg hover:bg-blue-600">
+    Get Started
+  </button>
+</nav>
+
+<section class="grid md:grid-cols-2 gap-10 items-center px-8 py-20 bg-blueshade text-white">
+  
+  <!-- LEFT -->
+  <div>
+    <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+      Build Your <span class="text-blue-500">Digital</span> Future
+    </h1>
+
+    <p class="mt-4 text-gray-400">
+      Transform your business with cutting-edge solutions that drive growth and innovation in the digital landscape.
+    </p>
+
+    <div class="mt-6 flex gap-4">
+      <button class="bg-blue-500 px-6 py-3 rounded-lg">
+        Start Your Journey
+      </button>
+      <button class="border border-gray-600 px-6 py-3 rounded-lg">
+        Learn More
+      </button>
+    </div>
+  </div>
+
+  <!-- RIGHT IMAGE -->
+  <div>
+    <img src="./images/project image 1.jpeg" class="rounded-2xl shadow-lg w-auto h-screen">
+  </div>
+</section>
+
+<section class="px-8 py-20 bg-secondary text-white">
+  <h2 class="text-3xl font-bold text-center">Our Services</h2>
+  <p class="text-gray-400 mt-2 text-center">
+    We provide comprehensive solutions to help your business thrive in the digital age.
+  </p>
+
+  <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mt-10">
+    
+    <div class="bg-div p-16 rounded-xl border border-slate-700  shadow-lg"> 
+      <div class="flex items-center bg-blue-500 p-2 rounded-md px-3 py-1 inline-block"><i class="fa-solid fa-code"></i></div>
+      <h3 class="mt-4 font-semibold">Web Development</h3>
+      <p class="text-gray-400 text-sm mt-2">
+        Custom websites and web applications built with modern technologies for optimal performance.
+      </p>
+    </div>
+
+    <div class="bg-div p-16 rounded-xl border border-slate-700 shadow-lg">
+      
+      <div class="flex items-center bg-green-500 p-2 rounded-md px-3 py-1 inline-block"><i class="fa-solid fa-mobile-screen"></i></div>
+      <h3 class="mt-4 font-semibold">Mobile Apps</h3>
+      <p class="text-gray-400 text-sm mt-2">
+        Native and cross-platform mobile applications that deliver exceptional user experiences.
+      </p>
+    </div>
+
+    <div class="bg-div p-16 rounded-xl border border-slate-700 shadow-lg">
+      <div class="flex items-center bg-purple-700 p-2 rounded-md px-3 py-1 inline-block"><i class="fa-solid fa-chart-line"></i></div>
+      <h3 class="mt-4 font-semibold">Digital Marketing</h3>
+      <p class="text-gray-400 text-sm mt-2">
+        Strategic marketing campaigns that boost your online presence and drive conversations.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section class="grid md:grid-cols-2 gap-10 items-center px-8 py-20 bg-blueshade text-white">
+  
+  <img src="./images/project image 2.jpeg" class="rounded-xl w-96 h-auto" />
+
+  <div>
+    <h2 class="text-3xl font-bold">About Nexus</h2>
+    <p class="text-gray-400 mt-4">
+      We are a forward-thinking technology company dedicated to helping business navigate the igital transformation journey. With years of experience and a passion for inniovation, bWe deliver solutions that matter.
+    </p>
+
+    <div class="flex gap-12 mt-6">
+      <div>
+        <h3 class="text-blue-500 text-2xl font-bold">150+</h3>
+        <p class="text-gray-400 text-sm">Projects Completed</p>
+      </div>
+
+      <div>
+        <h3 class="text-green-400 text-2xl font-bold">98%
+        <p class="text-gray-400 text-sm">Client Satisfaction</p>
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section class="px-8 py-20 bg-secondary text-white">
+  <h2 class="text-3xl font-bold text-center">Get In Touch</h2>
+
+  <div class="grid md:grid-cols-2 gap-10 mt-10 max-w-5xl mx-auto border border-gray-600 p-8 rounded-xl bg-gray-800 ">
+    
+    <!-- LEFT -->
+    <div class="text-gray-400 space-y-4">
+      <p class="flex items-center gap-2"><i class="fa-solid fa-envelope text-blue-500"></i> hello@nexus.com</p>
+      <p class="flex items-center gap-2"><i class="fa-solid fa-phone text-blue-500"></i> +1 (555) 123-4567</p>
+      <p class="flex items-center gap-2"><i class="fa-solid fa-map-marker-alt text-blue-500"></i> 123 Business Ave</p>
+    </div>
+
+    <!-- FORM -->
+    <form class="space-y-4">
+      <input class="w-full p-3 rounded bg-div border border-gray-700" placeholder="Your Name" />
+      <input class="w-full p-3 rounded bg-div border border-gray-700" placeholder="Your Email" />
+      <textarea class="w-full p-3 rounded bg-div   border border-gray-700" placeholder="Your Message"></textarea>
+
+      <button class="bg-blue-500 px-6 py-3 rounded w-full">
+        Send Message
+      </button>
+    </form>
+
+  </div>
+</section>
+
+
+<footer class="bg-div text-white  px-8 py-6">
+
+  <div class="flex flex-col md:flex-row md:justify-between md:items-center gap-6">
+
+    <!-- Left -->
+    <div class="flex flex-col items-center gap-2 md:flex-row">
+      <div class="bg-blue-700 p-2 rounded-md">
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+      <p class="text-xl font-bold">Nexus</p>
+    </div>
+
+    <!-- Middle -->
+    <p class="text-gray-300 text-sm text-center">
+      &copy; 2024 Nexus. All rights reserved.
+    </p>
+
+    <!-- Right -->
+    <ul class="flex justify-center md:justify-end gap-6  text-xl">
+      <li><i class="fa-brands fa-instagram"></i></li>
+      <li><i class="fa-brands fa-linkedin"></i></li>
+      <li><i class="fa-brands fa-github"></i></li>
+    </ul>
+
+  </div>
+
+</footer>
+</body>
+</html>
